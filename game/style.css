@@ -1,0 +1,49 @@
+/* Ridge Runner: Alpine Mail Run — the page around the canvas. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0c1422;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #dfe9f5;
+}
+
+.stage {
+  width: min(1280px, 100vw);
+  padding: 12px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(150, 200, 255, 0.25);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+  background: #2e5f9e;
+  cursor: crosshair;
+}
+
+.help,
+.about {
+  margin: 10px 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9fc4e8;
+}
+
+.about {
+  color: #6f8aa8;
+}
