@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ridge Runner — Alpine Mail Run</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <canvas id="game" width="1280" height="720" aria-label="Ridge Runner flight game"></canvas>
+    <p class="help">
+      Arrows steer &middot; A / D bank &middot; W / S throttle &middot; mouse steers, wheel throttles
+      &middot; Enter take off &middot; R restart &middot; P pause &middot; M mute
+    </p>
+    <p class="about">
+      Ridge Runner: fly the golden rings down the alpine valley, then land on the
+      runway to deliver the mail and refuel. Three hard hits wreck the airframe.
+      Low fuel? The runway is your only petrol station.
+    </p>
+  </main>
+  <script type="module" src="src/game.js"></script>
+</body>
+</html>
